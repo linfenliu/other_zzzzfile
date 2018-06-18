@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\Software\Classes]
+[HKEY_CURRENT_USER\Software\Classes\*]
+[HKEY_CURRENT_USER\Software\Classes\*\shell]
+[HKEY_CURRENT_USER\Software\Classes\*\shell\ 进入命令行]
+[HKEY_CURRENT_USER\Software\Classes\*\shell\ 进入命令行 \command]
+@="cmd"
+[HKEY_CURRENT_USER\Software\Classes\Folder]
+[HKEY_CURRENT_USER\Software\Classes\Folder\shell]
+[HKEY_CURRENT_USER\Software\Classes\Folder\shell\ 进入命令行]
+[HKEY_CURRENT_USER\Software\Classes\Folder\shell\ 进入命令行 \command]
+@="cmd /k cd \"%1\""
